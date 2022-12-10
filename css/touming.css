@@ -1,0 +1,41 @@
+/* 页脚与头图透明 */
+#footer {
+    /* background: rgba(38, 203, 181, 1) !important; */
+    background: rgb(0, 0, 0,0.4) !important;
+}
+
+/* #page-header {
+    background: transparent !important;
+} */
+
+/* 白天模式遮罩透明 */
+#footer::before {
+    /* background: rgba(38, 203, 181, 1) !important; */
+    background: rgb(0, 0, 0, 0.4) !important;
+}
+
+/* #page-header::before {
+    background: transparent !important;
+} */
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+    /* background: rgba(38, 203, 181, 1) !important; */
+    background: rgb(0, 0, 0, 0.4) !important;
+}
+
+#footer{
+    padding: 0 !important;
+}
+#page-header.not-home-page{
+    background: rgb(0, 0, 0, 0.1) !important;
+
+}
+
+#page-header.post-bg {
+    background: rgb(0, 0, 0, 0.1) !important;
+}
+
+/* [data-theme="dark"] #page-header::before {
+    background: transparent !important;
+} */
