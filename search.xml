@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>markdown语法</title>
+      <link href="/2022/12/08/%E5%AD%A6%E4%B9%A0-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-2markdown/"/>
+      <url>/2022/12/08/%E5%AD%A6%E4%B9%A0-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-2markdown/</url>
+      
+        <content type="html"><![CDATA[<h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h2 id="1-1-markdown语法介绍"><a href="#1-1-markdown语法介绍" class="headerlink" title="1.1 markdown语法介绍"></a>1.1 markdown语法介绍</h2><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，Markdown文件的后缀名便是“.md”。该博客页面内容都通过Markdown语言书写。</p><h2 id="1-2工作原理"><a href="#1-2工作原理" class="headerlink" title="1.2工作原理"></a>1.2工作原理</h2><p>在使用 Markdown 格式书写时，文本内容存储在带有 .md 或 .markdown 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？</p><p>简单来说，你需要一个能够处理 Markdown 文件的 Markdown 应用程序。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 在线 Markdown 编辑器 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。</p><p>Markdown 应用程序使用一种称为 Markdown 处理器（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。</p><p>注意： Markdown 应用程序和处理器是两个单独的组件。为了简洁起见，在下图中，我将它们组合为一个元素（即 “Markdown应用程序”）</p><p>本人使用VSCode编辑器。</p><p>以下为常用代码</p><h1 id="2-Markdown语法使用"><a href="#2-Markdown语法使用" class="headerlink" title="2 Markdown语法使用"></a>2 Markdown语法使用</h1><h2 id="2-1代码块"><a href="#2-1代码块" class="headerlink" title="2.1代码块"></a>2.1代码块</h2><blockquote><p>为了方便自己查找Markdown语法，所以把最常用的<strong>代码块</strong>放在前面。</p></blockquote><p>行内引用代码，如下：</p><p>行内使用引用如右， <code>printf()</code> .</p><p>Markdown代码如下：</p><p>在需要高亮的代码块的前一行及后一行使用三个反引号，同时<strong>第一行反引号后面表示代码块所使用的语言</strong>，如下：</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span>                                      <span class="comment">/*include 预处理器指令    头文件*/</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span>                                          <span class="comment">/* 一个简单的C程序 */</span> <span class="comment">/*函数名*/</span></span><br><span class="line">&#123;                                                       <span class="comment">/*函数体开始*/</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello,World! &quot;</span>); </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>支持以下语言种类：</p></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">bash</span><br><span class="line">clojure，cpp，cs，css</span><br><span class="line">dart，dockerfile, diff</span><br><span class="line">erlang</span><br><span class="line">go，gradle，groovy</span><br><span class="line">haskell</span><br><span class="line">java，javascript，json，julia</span><br><span class="line">kotlin</span><br><span class="line">lisp，lua</span><br><span class="line">makefile，markdown，matlab</span><br><span class="line">objectivec</span><br><span class="line">perl，php，python</span><br><span class="line">r，ruby，rust</span><br><span class="line">scala，shell，sql，swift</span><br><span class="line">tex，typescript</span><br><span class="line">verilog，vhdl</span><br><span class="line">xml</span><br><span class="line">yaml</span><br></pre></td></tr></table></figure><h2 id="2-2标题"><a href="#2-2标题" class="headerlink" title="2.2标题"></a>2.2标题</h2><p>不同数量的<code>#</code>可以完成不同的标题，如下：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br></pre></td></tr></table></figure><h2 id="2-3-字体"><a href="#2-3-字体" class="headerlink" title="2.3 字体"></a>2.3 字体</h2><p>粗体、斜体、粗体和斜体，删除线，需要在文字前后加不同的标记符号。如下：</p><p><strong>这个是粗体</strong></p><p><em>这个是斜体</em></p><p><strong><em>这个是粗体加斜体</em></strong></p><h2 id="2-4-无序列表"><a href="#2-4-无序列表" class="headerlink" title="2.4 无序列表"></a>2.4 无序列表</h2><p>无序列表的使用，在符号<code>-</code>后加空格使用。如下：</p><ul><li>无序列表 1</li><li>无序列表 2</li><li>无序列表 3</li></ul><p>如果要控制列表的层级，则需要在符号<code>-</code>前使用空格。如下：</p><ul><li>无序列表 1</li><li>无序列表 2<ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><h2 id="2-5-引用"><a href="#2-5-引用" class="headerlink" title="2.5 引用"></a>2.5 引用</h2><p>引用的格式是在符号<code>&gt;</code>后面书写文字。如下：</p><blockquote><p>读一本好书，就是在和高尚的人谈话。 ——歌德</p><p>雇用制度对工人不利，但工人根本无力摆脱这个制度。 ——阮一峰</p></blockquote><h2 id="2-6-链接"><a href="#2-6-链接" class="headerlink" title="2.6 链接"></a>2.6 链接</h2><p>我的博客<code>https://www.ryqklmx.cc/</code></p><p>另一种表示：<br><a href="https://www.ryqklmx.cc/">我的博客</a></p><h2 id="2-7-图片"><a href="#2-7-图片" class="headerlink" title="2.7 图片"></a>2.7 图片</h2><p>插入图片，格式如下：</p><p><img src="https://picbed.ryqklmx.cc/img/tx1.jpg" alt="我的头像"></p><p>支持 jpg、png、gif、svg 等图片格式，</p><h2 id="2-8-分割线"><a href="#2-8-分割线" class="headerlink" title="2.8 分割线"></a>2.8 分割线</h2><p>可以在一行中用三个以上的减号来建立一个分隔线，同时需要在<strong>分隔线的上面空一行</strong>。如下：</p><hr><h2 id="2-9-表格"><a href="#2-9-表格" class="headerlink" title="2.9 表格"></a>2.9 表格</h2><p>可以使用冒号来定义表格的对齐方式，如下：</p><div class="table-container"><table><thead><tr><th style="text-align:left">姓名</th><th style="text-align:center">年龄</th><th style="text-align:right">工作</th></tr></thead><tbody><tr><td style="text-align:left">林间(熔岩巧克力)</td><td style="text-align:center">21</td><td style="text-align:right">学生</td></tr></tbody></table></div><h2 id="2-10-脚注"><a href="#2-10-脚注" class="headerlink" title="2.10 脚注"></a>2.10 脚注</h2><p>脚注与链接的区别如下所示：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">链接：[<span class="string">文字</span>](<span class="link">链接</span>)</span><br><span class="line">脚注：[<span class="string">文字</span>](<span class="link">脚注解释 &quot;脚注名字&quot;</span>)</span><br></pre></td></tr></table></figure><p><a href="是指掌握多种技能，并能利用多种技能独立完成产品的人。" title="什么是全栈工程师">全栈工程师</a>在业务开发流程中起到了至关重要的作用。</p><p>脚注内容请拉到最下面观看。</p><blockquote><p>如果想了解更多关于markdown的内容,请到<a href="https://markdown.com.cn/">官网查看</a> 。</p></blockquote><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>三体</title>
       <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E4%B8%89%E4%BD%93/"/>
       <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E4%B8%89%E4%BD%93/</url>
       
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
       
       
       <categories>
@@ -29,36 +54,11 @@
     
     
     <entry>
-      <title>死神永生</title>
-      <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E6%AD%BB%E7%A5%9E%E6%B0%B8%E7%94%9F/"/>
-      <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E6%AD%BB%E7%A5%9E%E6%B0%B8%E7%94%9F/</url>
+      <title>星际穿越</title>
+      <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%BD%B1%E8%A7%86-%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/"/>
+      <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%BD%B1%E8%A7%86-%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/</url>
       
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 娱乐 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 小说 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>小王子</title>
-      <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E5%B0%8F%E7%8E%8B%E5%AD%90/"/>
-      <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E5%B0%8F%E7%8E%8B%E5%AD%90/</url>
-      
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
       
       
       <categories>
@@ -70,7 +70,7 @@
       
         <tags>
             
-            <tag> 小说 </tag>
+            <tag> 影视 </tag>
             
         </tags>
       
@@ -79,61 +79,11 @@
     
     
     <entry>
-      <title>月亮与六便士</title>
-      <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E6%9C%88%E4%BA%AE%E4%B8%8E%E5%85%AD%E4%BE%BF%E5%A3%AB/"/>
-      <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E6%9C%88%E4%BA%AE%E4%B8%8E%E5%85%AD%E4%BE%BF%E5%A3%AB/</url>
-      
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 娱乐 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 小说 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>龙蛋</title>
-      <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E9%BE%99%E8%9B%8B/"/>
-      <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%B0%8F%E8%AF%B4-%E9%BE%99%E8%9B%8B/</url>
-      
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 娱乐 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 小说 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>烟云</title>
+      <title>诗云</title>
       <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E8%AF%97%E4%BA%91-%E7%83%9F%E4%BA%91/"/>
       <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E8%AF%97%E4%BA%91-%E7%83%9F%E4%BA%91/</url>
       
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="诗云"><a href="#诗云" class="headerlink" title="诗云"></a>诗云</h1><p>本篇博客用以记录自己喜欢的诗词和句子……<br>诗云的由来：刘大的短篇小说《诗云》。</p><p>1</p><blockquote><p>粗缯大布裹生涯，腹有诗书气自华。<br> <p align="right">———苏轼《和董传留别》 </p></p></blockquote><!-- <center>———苏轼《和董传留别》 </center> <div style="text-align: right">———苏轼《和董传留别》</div> &nbsp;———苏轼《和董传留别》半角 &emsp;  ———苏轼《和董传留别》全角 &ensp;———苏轼《和董传留别》 ———苏轼《和董传留别》 --><p>2</p><blockquote><p>灵山多秀色，空水共氤氲。<br>  <p align="right">——张九龄</p>     </p></blockquote><p>3              </p><blockquote><p>梦里有时身化鹤,人间无数草为萤。<br> <p align="right">——张元千《浣溪沙》</p>    </p></blockquote><p>4</p><blockquote><p>溪云初起日沉阁,山雨欲来风满楼。<br> <p align="right">——许浑《咸阳城东楼》</p>   </p></blockquote><p>5</p><blockquote><p>从童年起 我便独自一人 照顾着 历代的星辰<br> <p align="right">——百鹤林《孤独》</p>   </p></blockquote><p>6</p><blockquote><p>每一个黎明，我更多一点地生活再过去，因为每一个夜晚，我更多一点地死在未来。<br> <p align="right">——阿盖《方向》</p></p></blockquote><p>7</p><blockquote><p>春天的酒如果没来得及喝掉，就该洒在泥土里，不能灌醉你，灌醉一朵小花儿也好哇。<br> <p align="right">——林蜻蜓《浮一大白》</p></p></blockquote><p>8</p><blockquote><p>生有热烈，藏与俗常。</p></blockquote><p>9</p><blockquote><p>从此以后千山暮雪，各自珍重。</p></blockquote>]]></content>
       
       
       <categories>
@@ -154,36 +104,11 @@
     
     
     <entry>
-      <title>星际穿越</title>
-      <link href="/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%BD%B1%E8%A7%86-%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/"/>
-      <url>/2022/12/06/%E5%A8%B1%E4%B9%90-%E5%BD%B1%E8%A7%86-%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/</url>
-      
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 娱乐 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 电影 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>1博客搭建</title>
+      <title>1.博客搭建</title>
       <link href="/2022/12/06/%E5%AD%A6%E4%B9%A0-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-1%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
       <url>/2022/12/06/%E5%AD%A6%E4%B9%A0-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-1%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
       
-        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
       
       
       <categories>
